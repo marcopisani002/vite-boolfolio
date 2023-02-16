@@ -27,7 +27,7 @@ export default {
 
 <template>
   <div class="container text-center">
-    <h1>Lista progetti</h1>
+    <h1 class="text-warning">Lista progetti</h1>
     <div style="margin-left:23rem" class="mt-5">
 
 <div class="card mb-3 bg-warning " style="width: 20rem;" v-for="project in projects" :key="project.id">
@@ -45,7 +45,7 @@ export default {
     <p class="card-text mt-4"><strong class="text-success ">DESCRIZIONE:
         </strong> <br>
         {{ project.description }} <br>
-         <small class="text-primary"><u> (clicca per info)</u></small></p>
+         </p>
   </div>
 </div>
 </div>
