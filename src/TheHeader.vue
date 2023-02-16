@@ -76,12 +76,12 @@ export default {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto ">
                     <li class="nav-item  " v-for="(item, index) in menuItems" :key="index">
-                        <!--  <a :href="item.link" class="nav-link">
+                         <a :href="item.link" class="nav-link">
                       {{ item.label }}
-                    </a> -->
-                        <router-link :to="{ name: item.routeName }" class="nav-link nav-i fw-bold ">
+                    </a>
+                        <!-- <router-link :to="{ name: item.routeName }" class="nav-link nav-i fw-bold ">
                             {{ item.label }}
-                        </router-link>
+                        </router-link> -->
                     </li>
                 </ul>
             </div>
